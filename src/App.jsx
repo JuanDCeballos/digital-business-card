@@ -6,12 +6,12 @@ import './App.css';
 
 const App = () => {
   return (
-    <>
+    <div className='container'>
       <Info />
       <About />
       <Interests />
       <Footer />
-    </>
+    </div>
   );
 };
 
