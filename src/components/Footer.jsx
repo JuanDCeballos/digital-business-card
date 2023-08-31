@@ -5,11 +5,11 @@ import gitHubIcon from '../assets/GitHub Icon.png';
 
 const Footer = () => {
   return (
-    <div className='footer-container'>
-      <img src={twitterIcon} />
-      <img src={facebookIcon} />
-      <img src={instagramIcon} />
-      <img src={gitHubIcon} />
+    <div className="footer-container">
+      <img className="icon" src={twitterIcon} />
+      <img className="icon" src={facebookIcon} />
+      <img className="icon" src={instagramIcon} />
+      <img className="icon" src={gitHubIcon} />
     </div>
   );
 };
